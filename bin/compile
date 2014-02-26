@@ -20,7 +20,7 @@ set -e
 
 # ------------------------------------------------------------------------------------------------
 
-compile_nginx_download=https://s3-eu-west-1.amazonaws.com/de.asideas.s.ops/nginx-1.5.10.tar.gz
+compile_nginx_download=https://s3-eu-west-1.amazonaws.com/de.asideas.s.ops/nginx-1.4.5.tar.gz
 
 # ------------------------------------------------------------------------------------------------
 
