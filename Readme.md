@@ -62,8 +62,8 @@ Build nginx package:
 
 ```
 vagrant ssh
-/vagrant/support/heroku-buildpack run
-mv builds /vagrant
+cd /vagrant
+./support/heroku-buildpack run
 ```
 
 Upload the created nginx package from `builds/` to a public available space and change the URL of `compile_nginx_download` in `bin/compile`.
