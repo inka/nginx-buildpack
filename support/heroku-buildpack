@@ -16,10 +16,11 @@ buildpack_pcre_download=$buildpack_pcre_url/pcre-$buildpack_pcre_version.tar.gz
 # ---------------------------------------------------------------------
 
 buildpack_nginx_url=http://nginx.org/download
-buildpack_nginx_version=1.4.6
+buildpack_nginx_version=1.4.7
 buildpack_nginx_build_flags=(
   --with-http_gzip_static_module
   --with-http_realip_module
+  --with-http_stub_status_module
   --prefix=/app/nginx
   --with-pcre=./pcre-$buildpack_pcre_version
 )
