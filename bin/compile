@@ -33,7 +33,7 @@ compile_buildpack_bin=$compile_buildpack_dir/bin
 
 # ------------------------------------------------------------------------------------------------
 
-compile_nginx_tgz="$compile_buildpack_dir/vendor/nginx-1.5.10.tar.gz"
+compile_nginx_tgz="$compile_buildpack_dir/vendor/nginx-1.7.4.tar.gz"
 
 # ------------------------------------------------------------------------------------------------
 
