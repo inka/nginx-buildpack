@@ -4,4 +4,7 @@
 apt-get update
 
 # Install required packages to build nginx
-apt-get -fy install build-essential curl zlib1g-dev libssl-dev
+apt-get -fy install build-essential curl zlib1g-dev libssl-dev dnsmasq
+
+perl -pi -e 's%#?\s*resolv-file=.*%resolv-file=/etc/resolv.conf%' /etc/dnsmasq.conf
+service dnsmasq restart
