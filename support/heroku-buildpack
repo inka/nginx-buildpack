@@ -18,7 +18,7 @@ buildpack_ngx_http_substitutions_filter_module_download=https://github.com/yaowe
 # ---------------------------------------------------------------------
 
 buildpack_nginx_url=http://nginx.org/download
-buildpack_nginx_version=1.7.4
+buildpack_nginx_version=1.7.6
 buildpack_nginx_build_flags=(
   --with-http_gzip_static_module
   --with-http_realip_module
